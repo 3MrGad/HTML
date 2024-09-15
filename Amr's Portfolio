@@ -1,0 +1,40 @@
+<! doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width ,initial-scale=1.0"
+      <title>My Portfolio(Amr Gadallah)</title>
+      <meta name="description" content="this page shows my portfolio">
+      <style>
+        body{
+          background-color:black;
+        }
+      </style>
+    </head>
+    <body text="white">
+      <div class="header">
+        <h1>Amr's Portfolio</h1>
+        <p>Welcome to my personal website! I'm an aspiring developer and cybersecurity enthusiast.</p>
+      </div>
+      <div class="about">
+        <h2>About me</h2>
+        <p>Hi, I'm Amr! I am passionate about web development, ethical hacking and learning new technologies. I'm currently pursuing certifications to become a penteration tester and backend developer.</p>
+      </div>
+      <div class="projects">
+        <h2>My Projects</h2>
+        <ul>
+          <li>
+            <h3>Portfolio Website</h3>
+            <p>this is the portfolio you're currently viewing.It showcases my HTML skills and my personal projects.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to email me at: <a href="mailto:amrgadallah11@gmail.com" target="_blank">amrgadallah11@gmail.com</a></p>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 Amr's Portfolio | All rights reserved.</p>
+      </div>
+    </body>
+  </html>
