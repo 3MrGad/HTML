@@ -12,8 +12,11 @@
     </style>
   </head>
   <body text="white">
+    <div  class="header">
     <h1>Contact form</h1>
     <p>please fill in your information and we'll sending your order in no time.</p>
+    </div>
+    <div class="form">
     <form action="index.php" method="post" >
       <label for="name">Your Name</label>
       <input id="name" type="text" required placeholder="First Name" autofocus name="First Name">
@@ -31,5 +34,6 @@
       <input type="reset">
       <input type="submit">
     </form>
+    </div>
   </body>
 </html>
