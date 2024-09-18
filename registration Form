@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>regestration page</title>
-  <meta name="description" content="regestration form">
+  <title>registration page</title>
+  <meta name="description" content="registration form">
   <style>
     body{
       background-color:black;
@@ -13,7 +13,7 @@
 </head>
 <body text="white">
   <div class="container">
-    <h1>Regestration Form</h1>
+    <h1>registration Form</h1>
     <p>fill these labels ,please:</p>
     <form action="index.php" method="post">
       <div class="name">
