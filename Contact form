@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <meta name="description" content="contact form page">
+    <style>
+      body{
+        background-color:black;
+      }
+    </style>
+  </head>
+  <body text="white">
+    <h1>Contact form</h1>
+    <p>please fill in your information and we'll sending your order in no time.</p>
+    <form action="index.php" method="post" >
+      <label for="name">Your Name</label>
+      <input id="name" type="text" required placeholder="First Name" autofocus name="First Name">
+      <input id="name" type="text" required placeholder="Last Name" name="Last Name">
+      <br>
+      <label for="Email">Your Email</label>
+      <input type="email" id="Email" placeholder="e.g. Hello@contact.net" required name="email">
+      <br>
+      <label for="phone">Phone</label>
+      <input type="number" id="phone"required placeholder="enter your phone number." name="phone">
+      <br>
+      <label for="message">Message</label>
+      <<textarea id="message"name="message" rows="8" cols="80" placeholder="type your message here."></textarea>
+      <br>
+      <input type="reset">
+      <input type="submit">
+    </form>
+  </body>
+</html>
