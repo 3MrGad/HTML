@@ -27,6 +27,18 @@
             <h3>Portfolio Website</h3>
             <p>this is the portfolio you're currently viewing.It showcases my HTML skills and my personal projects.</p>
           </li>
+          <li>
+            <h3>Contact form</h3>
+          </li>
+          <li>
+            <h3>Regestration Page</h3>
+          </li>
+          <li>
+            <h3>Login Page</h3>
+          </li>
+          <li>
+            <h3>Selecting a book page</h3>
+          </li>
         </ul>
       </div>
       <div class="contact">
