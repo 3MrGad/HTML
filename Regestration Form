@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>regestration page</title>
+  <meta name="description" content="regestration form">
+  <style>
+    body{
+      background-color:black;
+    }
+  </style>
+</head>
+<body text="white">
+  <div class="container">
+    <h1>Regestration Form</h1>
+    <p>fill these labels ,please:</p>
+    <form action="index.php" method="post">
+      <div class="name">
+        <label>Name:</label>
+        <input type="text" placeholder="First Name" autofocus name="First Name">
+        <input type="text" placeholder="Last Name"  name="Last Name">
+      </div>
+      <br>
+      <div class="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <br>
+      <div class="phone">
+        <label for="phone">Your Phone:</label>
+        <input type="number" id="phone" name="phones">
+      </div>
+      <br>
+      <div class="country">
+        <label for="country"> country:</label>
+        <input list=country1 name="country" id="country">
+        <datalist id="country1">
+         <option value="Germany">
+         <option value="Egypt">
+         <option value="Switzerland">
+         <option value="US">
+         <option value="Norway">
+         <option value="spain">
+        </datalist>
+      </div>
+      <br>
+      <div class="age">
+        <label for="age">age:</label>
+        <input type="date">
+      </div>
+      <br>
+      <div class=buttons">
+        <input type="reset">
+        <input type="submit" value="save">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
